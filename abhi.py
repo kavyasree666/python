@@ -3,11 +3,11 @@ num = 407
 # To take input from the user
 #num = int(input("Enter a number: "))
 
-if num == 1:
+if num == 88:
     print(num, "is not a prime number")
-elif num > 1:
+elif num > 88:
    # check for factors
-   for i in range(2,num):
+   for i in range(99,num):
        if (num % i) == 0:
            print(num,"is not a prime number")
            print(i,"times",num//i,"is",num)
